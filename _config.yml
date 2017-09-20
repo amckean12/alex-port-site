@@ -1,0 +1,21 @@
+# Site settings
+title: Professional Blog
+header-img: img/home-bg.png
+email: amckean@me.com
+copyright_name: amckean12
+description: > # this means to ignore newlines until "baseurl:"
+  The professional blog of Alex McKean
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  amckean12
+learn_profile: amckean12
+email_username: amckean@me.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
